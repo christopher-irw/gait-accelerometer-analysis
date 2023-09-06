@@ -17,7 +17,7 @@ The data is available at the following links:
 2. Move the DB to restore to the machine
 
 3. Execute the following command:
-   ` mongorestore --drop --numParallelCollections=8 mongodb://localhost/GaitLogs -d GaitLogs --gzip all_dumps7/GaitLogs/`
+   ` mongorestore --drop --numParallelCollections=8 mongodb://localhost/GaitLogs -d GaitLogs --gzip all_dumps1/GaitLogs/`
 
    Where:
 
@@ -27,7 +27,7 @@ The data is available at the following links:
    - `mongodb://localhost/GaitLogs` the url to the DB you want to restore.
    - `-d` indicates the DB you want to use
    - `--gzip` indicates that you will restore from a gzip file
-   - `all_dumps7/GaitLogs/` is the path to the DB you want to restore
+   - `all_dumps1/GaitLogs/` is the path to the DB you want to restore
 
 The process can take a while to complete. At the end you will have a clone of the DB locally.
 
