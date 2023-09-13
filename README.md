@@ -17,7 +17,7 @@ The data is available at the following links:
 2. Move the DB to restore to the machine
 
 3. Execute the following command:
-   ` mongorestore --drop --numParallelCollections=8 mongodb://localhost/GaitLogs -d GaitLogs --gzip all_dumps1/GaitLogs/`
+   ` mongorestore --drop --numParallelCollections=8 mongodb://localhost/GaitLogs -d GaitLogs --gzip all_dumps7/GaitLogs/`
 
    Where:
 
@@ -27,7 +27,7 @@ The data is available at the following links:
    - `mongodb://localhost/GaitLogs` the url to the DB you want to restore.
    - `-d` indicates the DB you want to use
    - `--gzip` indicates that you will restore from a gzip file
-   - `all_dumps1/GaitLogs/` is the path to the DB you want to restore
+   - `all_dumps7/GaitLogs/` is the path to the DB you want to restore
 
 The process can take a while to complete. At the end you will have a clone of the DB locally.
 
@@ -130,4 +130,23 @@ def process_one(collection=COLLECTION,
         df_out.to_csv(f"{fname}.csv.gz", index=False, compression="gzip")
 
     return len(all_dfs)
+```
+
+## Citation
+If you use this data please cite our [work](https://www.mdpi.com/1424-8220/23/18/7743):
+
+```latex
+@Article{s23187743,
+AUTHOR = {Canonico, Massimo and Desimoni, Francesco and Ferrero, Alberto and Grassi, Pietro Antonio and Irwin, Christopher and Campani, Daiana and Dal Molin, Alberto and Panella, Massimiliano and Magistrelli, Luca},
+TITLE = {Gait Monitoring and Analysis: A Mathematical Approach},
+JOURNAL = {Sensors},
+VOLUME = {23},
+YEAR = {2023},
+NUMBER = {18},
+ARTICLE-NUMBER = {7743},
+URL = {https://www.mdpi.com/1424-8220/23/18/7743},
+ISSN = {1424-8220},
+ABSTRACT = {Gait abnormalities are common in the elderly and individuals diagnosed with Parkinson&rsquo;s, often leading to reduced mobility and increased fall risk. Monitoring and assessing gait patterns in these populations play a crucial role in understanding disease progression, early detection of motor impairments, and developing personalized rehabilitation strategies. In particular, by identifying gait irregularities at an early stage, healthcare professionals can implement timely interventions and personalized therapeutic approaches, potentially delaying the onset of severe motor symptoms and improving overall patient outcomes. In this paper, we studied older adults affected by chronic diseases and/or Parkinson&rsquo;s disease by monitoring their gait due to wearable devices that can accurately detect a person&rsquo;s movements. In our study, about 50 people were involved in the trial (20 with Parkinson&rsquo;s disease and 30 people with chronic diseases) who have worn our device for at least 6 months. During the experimentation, each device collected 25 samples from the accelerometer sensor for each second. By analyzing those data, we propose a metric for the &ldquo;gait quality&rdquo; based on the measure of entropy obtained by applying the Fourier transform.},
+DOI = {10.3390/s23187743}
+}
 ```
