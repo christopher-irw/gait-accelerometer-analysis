@@ -7,7 +7,7 @@ The data is available at the following links:
 | Parkinson                           |        25Hz        |      20      |   NA   |    ~17GB     |   MongoDB   | [LINK](https://drive.google.com/drive/folders/1CnoWaaMFOacgJaCZfJkprRYTsGSBB2po?usp=sharing) |
 | Chronic deaseses                    |        25Hz        |      30      |   NA   |    ~25GB     |   MongoDB   | [LINK](https://drive.google.com/drive/folders/1RtDDlfDJzx-0YLW1hm0htt2oQdeuYB5T?usp=sharing) |
 | Single Parkinson user (walks only*) |        25Hz        |      1       |   NA   |    ~450MB    |     CSV     | [LINK](https://drive.google.com/drive/folders/1wfsUucekV6ix0HOGfnF-LpLpztrbCluY?usp=sharing) |
-| Single Parkinson user 2 (walks only*) |        25Hz        |      1       |   NA   |    ~450MB    |     CSV     | [LINK](https://drive.google.com/drive/folders/13hxamYeQVoo21K7ex1w-pCG53DN5tnTv?usp=sharing) |
+| Single Parkinson user 2 (walks only*) |        25Hz        |      1       |   NA   |    ~9MB    |     CSV     | [LINK](https://drive.google.com/drive/folders/13hxamYeQVoo21K7ex1w-pCG53DN5tnTv?usp=sharing) |
 
 \* The data was collected during the users walks but contains some noise.
 
