@@ -1,5 +1,7 @@
 # Accelerometer data
 
+The accelerometer data provided here is sourced from the paper [Gait Monitoring and Analysis: A Mathematical Approach](https://www.mdpi.com/1424-8220/23/18/7743) where experiments were conducted to collect and analyze this dataset. In the paper, detailed descriptions of the experiments are available, including the specific activities in which the data was gathered. The data originates from two distinct groups of individuals: one comprising elderly patients with chronic diseases and the other consisting of individuals diagnosed with Parkinson's disease. Patients with chronic conditions used Android smartwatches, while those with Parkinson's disease utilized wristbands equipped with BLE (Bluetooth Low Energy) technology. The participants were encouraged to use these devices for extended periods, capturing a wide range of daily activities. In a few instances, participants were instructed to wear the devices exclusively during walking activities.
+
 The data is available at the following links:
 
 | Project                             | Sampling frequency | Unique users | Labels | Dataset Size | Data format |                           Download                           |
