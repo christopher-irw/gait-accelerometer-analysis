@@ -14,7 +14,7 @@ The data is available at the following links:
 \* The data was collected during the users walks but contains some noise.
 
 ## HAR classification model training
-Given the primarily unsupervised nature of the available data, we addressed the task of building a classifier to identify instances when patients were walking by leveraging the [Capture24](https://www.nature.com/articles/s41598-018-26174-1) dataset. Subsequently, we applied preprocessing techniques to align this dataset with our own and trained an XGBoost classifier model. The training procedure closely resembles the one outlined by [Walmsley et al.](https://www.medrxiv.org/content/10.1101/2020.11.10.20227769v3).
+Given the primarily unsupervised nature of the available data, we addressed the task of building a classifier to identify instances when patients were walking by leveraging the [Capture24](https://www.nature.com/articles/s41598-018-26174-1) dataset. Subsequently, we applied preprocessing techniques to align this dataset with our own and trained an XGBoost classifier model. The training procedure closely resembles the one outlined by [Walmsley et al.](https://www.medrxiv.org/content/10.1101/2020.11.10.20227769v3) 
 
 ## Restoring data
 
